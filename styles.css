@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: poppins;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.image-main-1 {
+  height: 100vh;
+  float: right;
+}
+
+.cta {
+  margin-right: 10%;
+}
+
+.cta button {
+  width: 200%;
+  height: 3.5vh;
+  background-color: rgb(255, 189, 189);
+  border-radius: 7.5px;
+  font-weight: 500;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+.cta button:hover {
+  background-color: rgb(253, 165, 165);
+}
+
+.h1-main {
+  font-size: 4.5rem;
+}
+
+.hr {
+  width: 50%;
+  margin: 2% auto;
+}
+
+.container {
+  margin: 2%;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(222, 222, 222);
+  box-shadow: 0px 5px 5px lightgrey;
+  padding: 0 1%;
+  margin-bottom: 3%;
+}
+
+.btn {
+  width: 15%;
+  height: 5vh;
+  background-color: rgb(255, 189, 189);
+  border-radius: 7.5px;
+  font-weight: 500;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+.btn:hover {
+  background-color: rgb(253, 165, 165);
+}
+
+.head {
+  text-align: center;
+  padding: 1.5%;
+  background-color: rgb(255, 189, 189);
+  box-shadow: 5px 5px 5px grey;
+  margin-bottom: 2%;
+}
+
+.note {
+  margin: 4%;
+}
+
+.note-h2 {
+  margin: 1% 0;
+}
+
+.note-hr-1 {
+  margin: 1% 0;
+  width: 50%;
+}
+
+.note-para {
+  padding-bottom: 3%;
+  width: 50%;
+}
+
+@media only screen and (max-width: 451px) {
+  h1 {
+    text-align: center;
+  }
+
+  .container {
+    margin: 0;
+  }
+
+  .main-header {
+    display: none;
+  }
+
+  .h1-main {
+    font-size: 2rem;
+  }
+
+  .image-main-1 {
+    height: 550px;
+    width: 100%;
+  }
+  img {
+    height: 400px;
+    width: 100%;
+  }
+  .hr {
+    width: 75%;
+    margin: 5% auto;
+  }
+
+  .main {
+    margin: 0 2.5% 2.5%;
+  }
+
+  .btn-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7.5% 0 5%;
+  }
+
+  .btn {
+    width: 60%;
+    height: 5vh;
+    background-color: rgb(255, 189, 189);
+    border-radius: 7.5px;
+    font-weight: 500;
+  }
+
+  .head {
+    padding: 5%;
+    background-color: rgb(255, 189, 189);
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .note {
+    margin: 3%;
+  }
+
+  .note-img {
+    width: 63%;
+  }
+
+  .note-h2 {
+    margin: 2% 0;
+  }
+
+  .note-hr-1 {
+    margin: 2% 0;
+    width: 50%;
+  }
+
+  .note-para {
+    padding-bottom: 5%;
+    width: 100%;
+  }
+
+  .images {
+    display: flex;
+    justify-content: center;
+    float: none;
+  }
+
+  .note-img-1 {
+    height: 100%;
+  }
+
+  .note-img-2 {
+    height: 100%;
+  }
+}
